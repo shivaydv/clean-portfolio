@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://shivayadav.me"),
+  // metadataBase: new URL("https://shivayadav.me"),
   title: "Shiva Yadav | Portfolio",
   description: "Full Stack Engineer specializing in React, Next.js, and modern web technologies.",
   keywords: [
