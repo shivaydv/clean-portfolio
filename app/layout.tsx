@@ -22,6 +22,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://shivayadav.me"),
   title: "Shiva Yadav | Portfolio",
   description: "Full Stack Engineer specializing in React, Next.js, and modern web technologies.",
   keywords: [
@@ -54,21 +55,21 @@ export const metadata: Metadata = {
       "Full Stack Engineer specializing in React, Next.js, and modern web technologies.",
     url: "https://shivayadav.me",
     siteName: "Shiva Yadav Portfolio",
-    images: [
-      {
-        url: "/images/opengrapgh-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Shiva Yadav Portfolio",
-      },
-    ],
+    // images: [
+    //   {
+    //     url: "/images/opengrapgh-image.png",
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Shiva Yadav Portfolio",
+    //   },
+    // ],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Shiva Yadav | Portfolio",
-    images: ["/images/opengrapgh-image.png"],
+    // images: ["/images/opengrapgh-image.png"],
     site:"shivayadav.me",
     description:
       "Frontend developer specializing in React, Next.js, and modern web technologies.",
