@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Work_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import Metrics from "@/metrics/Metrics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,7 +25,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   // metadataBase: new URL("https://shivayadav.me"),
   title: "Shiva Yadav | Portfolio",
-  description: "Full Stack Engineer specializing in React, Next.js, and modern web technologies.",
+  description:
+    "Full Stack Engineer specializing in React, Next.js, and modern web technologies.",
   keywords: [
     "Shiva Yadav",
     "Shiva Yadav Portfolio",
@@ -73,6 +75,7 @@ export default function RootLayout({
             {children}
           </div>
         </ThemeProvider>
+        <Metrics />
       </body>
     </html>
   );

@@ -7,7 +7,7 @@ export type SocialLinkType = {
 export const socialLinks: SocialLinkType[] = [
   {
     name: "Resume",
-    url: "/resume.pdf",
+    url: "https://drive.google.com/file/d/19jgOl45-T67QDowo9ytoC2Nx3KAvXyli/view?usp=sharing",
   },
   {
     name: "GitHub",
